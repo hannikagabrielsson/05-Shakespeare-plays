@@ -1,0 +1,104 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.6rem;
+    padding: 1rem;
+}
+
+ul{
+    list-style: disc;
+    padding: 1rem 1rem 1rem 4rem;
+}
+h1, h2{
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+table {
+    margin-bottom: 1rem;
+}
+tr {
+    line-height: 1.5rem;
+}
+tr{
+    line-height: 1.5;
+}
+td{
+    padding-right: 1rem;
+}
+
+/* CSS-säännöt, jotka lisätään javascriptin avulla */
+.listat{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    max-width: 70%;
+
+}
+
+.listat > * {
+    list-style: none;
+    flex-grow: 1;
+    flex-basis: 0;
+    background-color: lightgray;
+    padding: 1rem;
+    margin-right: 1rem;
+}
+
+/* #sectionToka {
+    max-width: 62%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#sectionToka > * {
+    flex-grow: 1;
+    flex-basis: 0;
+} */
+
+.jokaToinenRiviEven tr:nth-child(even){
+    background-color: lightgray;
+}
+.jokaToinenRiviOdd tr:nth-child(odd){
+    background-color: lightgray;
+}
+
+.jokaToinenRiviEven td, .jokaToinenRiviOdd td {
+    width: 23rem;
+
+}
+
+.dotted {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    color: brown;
+    font-style: italic;
+    font-weight: 800;
+}
+
+
+/* #sectionKolmas {
+    max-width: 42%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#sectionKolmas > * {
+    flex-grow: 1;
+    flex-basis: 0;
+} */
+
+/* 
+tr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+tr > * {
+    flex-basis: 0;
+    flex-grow: 1;
+} */
